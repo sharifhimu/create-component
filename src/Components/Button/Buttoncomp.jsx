@@ -7,6 +7,7 @@ const Buttoncomp = ({text, type}) => {
         <div className='btn-main'>
             <button  className={`btn-div ${type} `}   >
                 {text}
+                
             </button>
         </div>
     );
