@@ -1,0 +1,58 @@
+.btn-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .primary{
+        background-color: rgb(0, 82, 204);
+        color: white;
+        border: none;
+        
+
+        &:hover{
+            background-color: rgb(49, 131, 255);
+        }
+    }
+
+    .default{
+        background-color: rgba(9, 30, 66, 0.04);
+        color: rgba(0,0,0,.8);
+        border: none;
+        
+        &:hover{
+            background-color: rgba(0, 2, 7, 0.137);
+        }
+    }
+
+    .subtle{
+        background-color: transparent;
+        color: rgba(0,0,0,.8);
+        border: none;
+        
+        &:hover{
+            background-color: rgba(0, 2, 7, 0.137);
+        }
+    }
+
+    .link{
+        background-color: transparent;
+        color: rgb(0, 82, 204);
+        border: none;
+        
+        &:hover{
+            // background-color: rgba(0, 2, 7, 0.137);
+            text-decoration: underline;
+            text-decoration-color: rgb(0, 82, 204);
+            text-decoration-style: solid;
+            text-decoration-thickness: 3px;
+        }
+    }
+
+    .btn-div{
+        font-size: 15px;
+        padding: 8px 14px;
+        cursor: pointer;
+        border-radius: .2rem;
+        font-weight: 600;
+        transition: .2s;
+    }
+}

@@ -1,0 +1,29 @@
+.tag-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // position: relative;
+
+    .tag-div{
+        background-color: rgba(9, 30, 66, 0.04);
+        width: fit-content;
+        padding: 4px 19px;
+        cursor: pointer;
+        position: relative;
+    }
+    .link{
+        color: rgba(65, 65, 250, 0.829);
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    .closable:before{
+        content: ' \02DF';
+        position: absolute  ;
+        right: 5px;
+        font-size: 31px;
+        top: 2px;
+    }
+}
